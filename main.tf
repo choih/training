@@ -33,7 +33,7 @@ variable "aws_region" {
 
 variable "num_webs" {
   type    = "string"
-  default = "1"
+  default = "2"
 }
 
 provider "aws" {
