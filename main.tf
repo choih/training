@@ -20,14 +20,10 @@
 
 variable "aws_access_key" {
   type = "string"
-
-  #  default = "AKIAI6J3BSESRNMYZAOQ"
 }
 
 variable "aws_secret_key" {
   type = "string"
-
-  #  default = "c2GgYeulJPMUAGFaAv5wNqjM+aMqFnxqHlOTTUEx"
 }
 
 variable "aws_region" {
@@ -37,7 +33,7 @@ variable "aws_region" {
 
 variable "num_webs" {
   type    = "string"
-  default = "2"
+  default = "1"
 }
 
 provider "aws" {
