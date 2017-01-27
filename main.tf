@@ -34,7 +34,7 @@ variable "aws_region" {
 variable "num_webs" {
   type    = "string"
   default = "3"
-
+}
 
 provider "aws" {
   access_key = "${var.aws_access_key}"
